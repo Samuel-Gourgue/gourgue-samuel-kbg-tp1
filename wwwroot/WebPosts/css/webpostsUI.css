@@ -1,0 +1,83 @@
+.WebPostRow {
+    padding: 8px;
+    padding-bottom: 0px;
+    scroll-snap-align: start;
+}
+
+.WebPostContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: top;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 10px;  /* Ajout de padding pour espacer les éléments */
+}
+
+.WebPostContainer .cmdIcon {
+    display: none;
+}
+
+.WebPostContainer:hover .cmdIcon {
+    display: block;
+}
+
+.WebPostLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.WebPost {
+    display: grid;
+    grid-template-columns: 1fr;  /* Utilisation d'une seule colonne pour éviter que l'image chevauche d'autres éléments */
+    gap: 10px; /* Espace entre l'image, le titre et la date */
+}
+
+.WebPostTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;  /* Espace entre le titre et l'image */
+}
+
+.WebPostCategory {
+    color: dodgerblue !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.WebPostCommandPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.WebPostdeleteForm {
+    margin: 20px;
+}
+
+.WebPostImage {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;  /* Ajout d'un espace sous l'image */
+}
+
+.WebPostCreationDate {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 5px;
+    line-height: 1.5;
+    margin-bottom: 10px; /* Espace entre la date et le texte */
+}
+
+.WebPostText {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    margin-top: 8px;
+}
