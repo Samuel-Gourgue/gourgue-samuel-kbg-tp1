@@ -1,6 +1,6 @@
 
 class WebPosts_API {
-    static API_URL() { return "http://localhost:5000/api/webposts" };
+    static API_URL() { return "https://superficial-profuse-scribe.glitch.me/api/webposts" };
     static initHttpState() {
         this.currentHttpError = "";
         this.currentStatus = 0;

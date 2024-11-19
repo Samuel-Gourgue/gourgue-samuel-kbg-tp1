@@ -1,4 +1,4 @@
-const apiBaseURL = "/api/maths";
+const apiBaseURL = "https://superficial-profuse-scribe.glitch.me/api/maths";
 //const apiBaseURL = "https://kbg-serverapi.glitch.me/api/maths";
 
 function webAPI_getMaths(host, queryString, successCallBack = null, errorCallBack = null) {

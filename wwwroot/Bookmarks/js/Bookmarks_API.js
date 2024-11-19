@@ -1,6 +1,6 @@
 
 class Bookmarks_API {
-    static API_URL() { return "http://localhost:5000/api/bookmarks" };
+    static API_URL() { return "https://superficial-profuse-scribe.glitch.me/api/bookmarks" };
     static initHttpState() {
         this.currentHttpError = "";
         this.currentStatus = 0;
